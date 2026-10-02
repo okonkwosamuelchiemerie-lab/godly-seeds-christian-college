@@ -1,11 +1,11 @@
 GSCC SCHOOL WEBSITE
 -------------------
-Run with the backend (forms save to submissions/*.json):
+Run with the backend (forms are validated but not saved or sent):
   pip install -r requirements.txt
   python app.py
   open http://127.0.0.1:5000
 
-Front end only: open public/index.html (forms need the Python server).
+Front end only: open public/index.html (forms need the Python server and do not save or send submissions).
 
 Edit staff, news, events and gallery in public/js/data.js.
 Put real photos in public/assets/ and set img:"assets/photo.jpg" there.
